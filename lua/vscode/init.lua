@@ -7,7 +7,7 @@ local theme = require('vscode.theme')
 vscode.setup = function(user_opts)
     local defaults = {
         transparent = false,
-        italic_comments = false,
+        italic_comments = true,
         color_overrides = {},
         group_overrides = {},
         disable_nvimtree_bg = true,
@@ -40,6 +40,7 @@ vscode.setup = function(user_opts)
     theme.link_highlight()
 
     for group, val in pairs(opts['group_overrides']) do
+        print(group)
         vim.api.nvim_set_hl(0, group, val)
     end
 end

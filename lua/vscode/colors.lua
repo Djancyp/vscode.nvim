@@ -44,19 +44,19 @@ if vim.o.background == 'dark' then
         -- Syntax colors
         vscGray = '#808080',
         vscViolet = '#646695',
-        vscBlue = '#569CD6',
+        vscBlue = '#61AFEF',
         vscDarkBlue = '#223E55',
         vscMediumBlue = '#18a2fe',
         vscLightBlue = '#9CDCFE',
-        vscGreen = '#6A9955',
+        vscGreen = '#98C379',
         vscBlueGreen = '#4EC9B0',
         vscLightGreen = '#B5CEA8',
-        vscRed = '#F44747',
+        vscRed = '#D26771',
         vscOrange = '#CE9178',
         vscLightRed = '#D16969',
         vscYellowOrange = '#D7BA7D',
         vscYellow = '#DCDCAA',
-        vscPink = '#C586C0',
+        vscPink = '#C678DD',
     }
 else
     colors = {
